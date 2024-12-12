@@ -1,0 +1,79 @@
+
+footer {
+    margin-top: 1em;
+    background-color: var(--Color);
+    color: var(--bgColor);
+    position: absolute;
+    font-size: 15.5px;
+}
+
+footer .footer-display div {
+    display: flex;
+    margin: 50px;
+}
+
+footer .footer-display div span {
+    padding: 50px;
+    line-height: 25px;
+}
+
+footer .footer-display div span h1 {
+    margin-bottom: 50px;
+}
+
+footer .footer-display div span li {
+    display: flex;
+    line-height: 50px;
+}
+
+footer .footer-display div span li a {
+    color: var(--bgColor);
+    text-decoration: none;
+}
+footer .footer-display div span li a:hover {
+    text-decoration: underline;
+}
+
+footer .footer-display div span .contact-span-border-spach {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+footer .footer-display div span a i {
+    font-size: 30px;
+    margin-right: 100px;
+    width: 0;
+    color: var(--bgColor);
+    transition: all 0.2s ease-in-out;
+}
+
+footer .footer-display div span a i:hover {
+    opacity: 50%;
+    font-size: 25px;
+}
+
+footer .footer-display  p {
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+footer .footer-display  hr {
+    margin: 50px;
+    opacity: 50%;
+}
+
+footer img {
+    width: 30em;
+    height: 10em;
+    border-radius: 20px;
+}
+
+footer .footer-display div .display-taging_ret {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 23em;
+}
